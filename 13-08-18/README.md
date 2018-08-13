@@ -13,20 +13,20 @@ In the second half the students (us), were asked to build structures of lego in 
 
 # Keypoints of the day
 
-## Breakdown barriers between testers, developers and operations
+### Breakdown barriers between testers, developers and operations
 
-## The book is very concise about automating everything
+### The book is very concise about automating everything
 
-## Reduce time from E2E
+### Reduce time from E2E
 
-## It is important to split the responsibility of a feature between multiple group members, to reduce a single point of failure e.g. if a groupmember with all the knowledge af a feature leaves the group.
+### It is important to split the responsibility of a feature between multiple group members, to reduce a single point of failure e.g. if a groupmember with all the knowledge af a feature leaves the group.
 
-## Adding new members during stressfull times is counterproductive
+### Adding new members during stressfull times is counterproductive
 
-## Generally expect that you can do less than what you think
+### Generally expect that you can do less than what you think
 
 -   This is experience gained after trying to measure how much time a task would take a repeatedly failing
 
-## Always make sure that you consult the product owner (PO)
+### Always make sure that you consult the product owner (PO)
 
-## Requirements will change so plan for it
+### Requirements will change so plan for it
