@@ -25,8 +25,6 @@ In the second half the students (us), were asked to build structures of lego in 
 
 ### Generally expect that you can do less than what you think
 
--   This is experience gained after trying to measure how much time a task would take a repeatedly failing
+-   This is experience gained after trying to measure how much time a task would take and repeatedly failing
 
 ### Always make sure that you consult the product owner (PO)
-
-### Requirements will change so plan for it
