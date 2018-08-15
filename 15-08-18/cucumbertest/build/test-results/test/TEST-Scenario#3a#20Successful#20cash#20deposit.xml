@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: Successful cash deposit" tests="5" skipped="4" failures="0" errors="0" timestamp="2018-08-15T12:33:17" hostname="DESKTOP-OPPHNVF" time="0.013">
+  <properties/>
+  <testcase name="Given I have an account with a balance of 100" classname="Scenario: Successful cash deposit" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="When I make a deposit of 50 at an ATM" classname="Scenario: Successful cash deposit" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then The ATM displays message that deposit was successful" classname="Scenario: Successful cash deposit" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="And My account has a new balance of 150" classname="Scenario: Successful cash deposit" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="classMethod" classname="Scenario: Successful cash deposit" time="0.016"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
