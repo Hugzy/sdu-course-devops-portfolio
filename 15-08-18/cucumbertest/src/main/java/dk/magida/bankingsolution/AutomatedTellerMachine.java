@@ -21,4 +21,11 @@ public class AutomatedTellerMachine {
         return response = new ResponseObject(0, "Deposit successful");
     }
 
+    public ResponseObject makeWithdrawal(Account acc, int withdrawal) {
+        acc.withdrawal(withdrawal);
+        return response = new ResponseObject(0, "Deposit successful");
+    }
+
+
+
 }

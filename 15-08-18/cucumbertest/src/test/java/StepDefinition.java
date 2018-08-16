@@ -1,3 +1,4 @@
+import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -35,5 +36,18 @@ public class StepDefinition {
     public void myAccountHasANewBalanceOf(int balance) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         assertEquals(acc.getBalance(), balance);
+    }
+
+    @When("^I make a withdrawal of (\\d+) at an ATM$")
+    public void iMakeAWithdrawalOfAtAnATM(int withdrawal) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        AutomatedTellerMachine atm = new AutomatedTellerMachine();
+        response = atm.makeWithdrawal(acc, withdrawal);
+    }
+
+    @Then("^The ATM displays message that withdrawal was successful$")
+    public void theATMDisplaysMessageThatWithdrawalWasSuccessful() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        assertEquals(response.getResponseCode(), 0);
     }
 }
