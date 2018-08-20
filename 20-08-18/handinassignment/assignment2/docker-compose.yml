@@ -1,0 +1,26 @@
+version: '3'
+services:
+  wordpress:
+    image: wordpress
+    environment:
+      - WORDPRESS_DB_PASSWORD=wordpress
+      - WORDPRESS_DB_HOST=db
+    depends_on:
+      - db
+    #TODO remember to ask about wether it is necessary to add network to each task
+  db:
+    image: mysql:5.7
+    environment:
+      - MYSQL_ROOT_PASSWORD=wordpress
+    #TODO remember to ask about wether it is necessary to add network to each task
+  loadbalancer-nginx:
+    image: nginx
+    ports:
+      - 80:80
+    depends_on:
+      - wordpress
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    #TODO remember to ask about wether it is necessary to add network to each task
+networks:
+  docker-compose-exercise2:
