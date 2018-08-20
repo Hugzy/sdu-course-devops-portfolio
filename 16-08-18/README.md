@@ -1,6 +1,9 @@
 # Log of the day
 
+for the first 2 hours of the day the time was spent going through the days reading material. Each member of 3 groups of 5 where tasked with reading 1 of 3 chapters from the second devops book, then they would discuss the its content and afterwards 5 groups of three where each groupmember had read a diffrent section would sit together and based on a case-study 
+
 # Keypoints of the day
+
 
 # Case-study points
 
