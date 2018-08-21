@@ -1,0 +1,1 @@
+The answers for the three assignment-2 questions will be found in the `assignments.md` file the Dockerfile for assignment-1 and the Docker-compose file for assignment-2 can be found in folders assignment1 and assignment2
